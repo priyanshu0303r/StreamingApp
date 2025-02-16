@@ -76,4 +76,16 @@ The application is built using modern Android development practices and librarie
    ```bash
    git clone https://github.com/priyanshu0303r/StreamingApp.git
    cd StreamingApp
+## Open in Android Studio:
+- Open Android Studio.
+- Select **Open an Existing Project** and navigate to the cloned repository.
+
+## Build & Run:
+- Ensure your emulator or device is connected.
+- Click the **Run** button in Android Studio.
+
+## Verify Permissions:
+- Make sure the following permission is declared in the `AndroidManifest.xml`:
+  ```xml
+  <uses-permission android:name="android.permission.INTERNET" />
 
