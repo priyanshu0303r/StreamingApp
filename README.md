@@ -109,3 +109,9 @@ The application is built using modern Android development practices and librarie
 - **Testing Tools:**
   - JUnit
   - `kotlinx-coroutines-test`
+
+
+https://github.com/user-attachments/assets/15d91813-29ac-4306-bb0e-9eb98a4730b4
+
+
+
