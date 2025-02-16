@@ -13,9 +13,6 @@ This project demonstrates an Android application featuring real-time data stream
 - [Architecture](#architecture)
 - [How to Run](#how-to-run)
 - [Testing](#testing)
-- [Presentation](#presentation)
-- [Future Enhancements](#future-enhancements)
-- [License](#license)
 
 ---
 
@@ -88,4 +85,29 @@ The application is built using modern Android development practices and librarie
 - Make sure the following permission is declared in the `AndroidManifest.xml`:
   ```xml
   <uses-permission android:name="android.permission.INTERNET" />
+
+
+## Testing the App:
+
+### Streaming Screen:
+- The app automatically connects to the WebSocket.
+- Use the input field to send messages and view live as well as cached data.
+
+### Perplexity Screen:
+- Enter comma-separated probabilities (e.g., `0.1, 0.2, 0.3`) and observe real-time perplexity calculation.
+
+---
+
+## Testing:
+
+- The project includes test cases to verify key functionalities:
+
+  - **StreamingViewModelTest:**
+    - Validates that live streaming data is collected correctly.
+    - Verifies that sending messages via the view model triggers the correct repository functionality.
+
+- **Testing Tools:**
+  - JUnit
+  - `kotlinx-coroutines-test`
+
 
